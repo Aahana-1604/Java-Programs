@@ -1,0 +1,40 @@
+import java.*;
+
+public class BuzzNumber
+{
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        System.out.println(" 1 for Buzz Number");
+        System.out.println(" 2 for Even/Odd");
+        System.out.println(" 3 for Positive/Negative");
+        System.out.print("Enter your choice: ");
+        int ch = in.nextInt();
+        System.out.print("Enter the number: ");
+        int n = in.nextInt();
+        switch (ch) {
+            case 1:
+            if (n % 7 == 0 || n % 10 == 7)
+                System.out.println(n + " is a Buzz Number");
+            else
+                System.out.println(n + " is not a Buzz Number");
+            break;
+            
+            case 2:
+            if (n % 2 == 0)
+                System.out.println(n + " is a Even Number");
+            else
+                System.out.println(n + " is an Odd Number");
+            break;
+            
+            case 3:
+            if (n >= 0)
+                System.out.println(n + " is a Positive Number");
+            else
+                System.out.println(n + " is a Negative Number");
+            break;
+            
+            default:
+            System.out.println("Incorrect choice");
+        }
+    }
+}
