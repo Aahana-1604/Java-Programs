@@ -16,7 +16,7 @@ I C S E
 For an incorrect option, an appropriate error message should be displayed. */
 
 
-import java.util.Scanner;
+import java.util.*;
 
 public class SwitchPattern
 {
@@ -53,4 +53,5 @@ public class SwitchPattern
             System.out.println("Incorrect Choice");
         }
     }
+
 }
