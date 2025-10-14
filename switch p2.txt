@@ -1,4 +1,4 @@
-import java.*;
+import java.util.*;
 
 public class BuzzNumber
 {
@@ -37,4 +37,5 @@ public class BuzzNumber
             System.out.println("Incorrect choice");
         }
     }
+
 }
